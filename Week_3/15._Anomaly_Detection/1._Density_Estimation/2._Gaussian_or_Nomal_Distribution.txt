@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-01T13:54:04+05:30
+
+====== 2. Gaussian or Nomal Distribution ======
+Created Saturday 01 August 2020
+
+{{./pasted_image001.png?width=600}}
+Don't memorize it.
+{{./pasted_image.png?width=600}}
+We calculate maximum likelihood.
+{{./pasted_image002.png?width=600}}
+* ML practicioners use m instead of m-1..

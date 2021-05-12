@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-01T20:02:16+05:30
+
+====== 1. Developing and evaluating anomaly detection ======
+Created Saturday 01 August 2020
+
+* We need a single metric for system evaluation.
+* Assume we have labelled data of some examples.
+
+Steps:
+1. We select an unlabelled data set as the test set.
+2. We select some labelled CV and test set.
+
+{{./pasted_image.png}}
+Evaluation metrics:
+1. True +ve, false +ve, true -ve, false -ve
+2. Precision/recall
+3. F_{1} score

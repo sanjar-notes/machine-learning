@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-31T15:28:44+05:30
+
+====== 1. Motivation - Data Compression ======
+Created Friday 31 July 2020
+
+What is dimensionality reduction?
+If we have redundant features, they are a problem, take up disk space and make our learning algorithms slow. Reduction of features is thus, very important.
+e.g length in cm, length in inches. pilot skill, pilot enjoyment. 
+{{./pasted_image.png?width=400}}
+* Selecting two features and making a single feature using them.
+--------------------
+* In real life, we may need to do 1000 D →  100 D.
+{{./pasted_image001.png}}
+* Most of the points in the 3D cloud lied on the same plane. Hence, they could be obtained as a projection tof that common 3D plane.
+* Dimensionality reduction helps in data compression.

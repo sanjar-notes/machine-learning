@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-06-02T08:23:31+05:30
+
+====== 3. Linear Algebra Review ======
+Created Tuesday 02 June 2020
+
+They are 2D arrays.
+--------------------
+Matrix:
+{{./pasted_image.png?width=600}}
+{{./pasted_image001.png?width=600}}
+--------------------
+Vector: It is a special case of a matrix - it has only one column.
+{{./pasted_image002.png?width=600}}
+* Dimensions - The number of columns of the vector.
+* There are two notations for vectors: 1 based and zero bases, for ML zero based indexing is helpful.
+* We're going to use 1 indexed vectors, unless stated otherwise.
+{{./pasted_image003.png?width=400}}
+* Capital letters are used to represent matrices
+* Small letters for vectors, generally.

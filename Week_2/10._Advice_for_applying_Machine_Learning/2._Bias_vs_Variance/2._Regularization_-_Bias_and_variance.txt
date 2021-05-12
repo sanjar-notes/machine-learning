@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-06-21T11:16:29+05:30
+
+====== 2. Regularization - Bias and variance ======
+Created Sunday 21 June 2020
+
+* We know that regularization decreases **overfitting** in our hypotheses.
+* How does regularization affect bias and variance? 
+{{./pasted_image.png?width=600}}
+--------------------
+
+==== How to choose the regularization parameter λ? ====
+{{./pasted_image001.png?width=600}}
+* Note that the error terms **do not **involve the regularization parameter.
+* To choose λ, do the following by trial and error, and select the one with the least CV error.
+{{./pasted_image002.png?width=600}}
+--------------------
+
+==== How do bias/variance vary as a function of regularization parameter λ ====
+{{./pasted_image003.png?width=600}}
+* On a real data, the graph will be somewhat messy.
+* By doing this we can **choose** the right regularization parameter λ.
+--------------------
+* We'll take all these insights to build a diagnostic tool called learning curves.

@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-06-08T13:19:23+05:30
+
+====== 2. Hypothesis Representation ======
+Created Monday 08 June 2020
+
+Hypothesis representation for logistic regression(classification) problems:
+{{./pasted_image.png?width=200}}
+--------------------
+For classification, we choose h_{θ}(x) = g(θ^{T}X). Predicted output is the probability.
+where g(z) = 1/(1+e^{-z}), is the sigmoid function.
+{{./pasted_image006.png}}
+* Sigmoid function is used interchangeably with "logistic function".
+* The sigmoid function asymptotes at 1 on the right and 0 at on the left.
+* It is perfectly symmetrical when changed - water image of one side(+ve or negative) with the other. 		
+{{./pasted_image005.png?width=400}}
+--------------------
+* We need to fit the hypothesis θ such that the model fits.
+--------------------
+
+=== Interpretation of the h_{θ}(x) value ===
+* h_{θ}(x) = estimated probability that y=1 on input x.
+{{./pasted_image002.png?width=600}}
+More precisely,
+{{./pasted_image003.png?width=600}}
+* Note that P(y=1 | x; θ) + P(y=0 | x; θ) = 1, obvious for a binary classifier.

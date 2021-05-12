@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-03-16T22:03:44+05:30
+
+====== 1. Introduction ======
+Created Monday 16 March 2020
+
+Our goal in AI is to someday make machines as intelligent as us.
+* The best way towards our goal is to mimic the human brain. This is a belief of many scientists.
+* We will be learning state-of-the-art algorithms and math, but it alone would not help if we do not know how to use this knowledge to solve problems. **Exercises **help here.

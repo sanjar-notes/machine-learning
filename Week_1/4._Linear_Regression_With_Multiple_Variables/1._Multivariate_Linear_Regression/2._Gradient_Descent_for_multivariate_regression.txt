@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-06-03T13:14:33+05:30
+
+====== 2. Gradient Descent for multivariate regression ======
+Created Wednesday 03 June 2020
+
+It's quite simple.
+{{./pasted_image.png}}
+* From now on θ represents the parameter vector.
+* We do the derivative of J(θ) for each of the values from θ_{0 }to θ_{n-1}.
+1. 2 is cancelled, α/m remains.	
+2. Degree is subtracted by 1
+3. The derivative of the term zeros all the terms except θ_{j}, so only x_{j} remains. Features and values are independent, as we can put any values, but the features values will remain the same.
+4. The result is analogous to the univariate case, i.e we have x_{0}=0 and update every feature simultaneously.
+{{./pasted_image001.png?width=600}}

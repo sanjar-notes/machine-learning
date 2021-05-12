@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-31T18:29:52+05:30
+
+====== 2. Choosing the number of principal components ======
+Created Friday 31 July 2020
+
+k = number of dimensions we have after PCA = principal components
+{{./pasted_image.png}}
+Algorithm to select k(number of principle components)
+{{./pasted_image001.png}}
+* This % loss is can be known from S in [U, S, V]
+{{./pasted_image002.png}}

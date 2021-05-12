@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-06-01T23:37:33+05:30
+
+====== 1. Model Representation ======
+Created Monday 01 June 2020
+
+{{./pasted_image.png?width=300}}
+(x, y) = one training example - row of the table
+(x^{(i)}, y^{(i)}) = i'th training example - The i'th row
+
+{{./pasted_image001.png?width=400}}
+Hypothesis: It's a name that stuck, don't worry about it.
+--------------------
+**How to represent h ?**
+We define it as:
+h_{θ}(x) = θ_{o} + θ_{1}x, shorthand is h(x)
+Linear regression with one variable or univariate linear regression.
+Theta terms are called parameters of the model.

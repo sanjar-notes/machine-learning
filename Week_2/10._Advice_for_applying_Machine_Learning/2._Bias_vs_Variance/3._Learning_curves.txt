@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-06-21T11:51:05+05:30
+
+====== 3. Learning curves ======
+Created Sunday 21 June 2020
+
+* It is a very useful thing to plot.
+* It can be used to provide:
+	1. Sanity checks
+	2. How well the hypothesis fits the data.
+* Learning curves are graphs which compare the training size and the error:
+{{./pasted_image002.png?width=600}}
+--------------------
+{{./pasted_image.png?width=600}}
+* High Bias - More examples do not help.
+--------------------
+{{./pasted_image001.png?width=600}}
+* High variance - More examples can help. Decrease the contortion.

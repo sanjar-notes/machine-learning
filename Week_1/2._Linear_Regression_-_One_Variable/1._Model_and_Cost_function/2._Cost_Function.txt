@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-06-01T23:39:01+05:30
+
+====== 2. Cost Function ======
+Created Monday 01 June 2020
+ 
+Cost Function - Lets us know how good a fit is. Takes as input the parameters of the hypotheses. Used to calculate **accuracy**.
+{{./pasted_image.png?width=300}} i.e 
+{{./pasted_image003.png}}
+* The 1/2 in the mean is a convenience for the computation of the **gradient descent**, as the derivative term of the square function will cancel out the 1/2 term.
+--------------------
+We have thus reformulated the problem:
+"Find me the values of θ_{0} and θ_{1 }such that: half of the average of the sum of squares of errors is **minimized**.
+* This is the cost function.
+* We take the OLS, because it is the best for regression. 
+* The cost function is called J_{O}. Note that J_{0}>=0.
+* OLS is universal, it does not depend on the hypothesis. Reason: It is mathematical.

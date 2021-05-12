@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-08-02T17:44:13+05:30
+
+====== 2. Anolmaly detection vs supervised learning ======
+Created Sunday 02 August 2020
+
+Anomaly detection - when we have very very less + ve examples and a large number of -ve examples.
+Supervised learning - Large number of + ve and -ve examples.
+{{./pasted_image.png}}
+{{./pasted_image001.png}}
+* If there are too many frauds(anomalies), the problem might shift to the supervised learning domain.

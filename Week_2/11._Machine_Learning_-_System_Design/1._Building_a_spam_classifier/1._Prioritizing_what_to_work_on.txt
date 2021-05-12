@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-23T20:15:41+05:30
+
+====== 1. Prioritizing what to work on ======
+Created Thursday 23 July 2020
+
+* How to strategize the work when designing ML systems.
+* This is less mathematical, but is important and may save us lots of time.
+--------------------
+We'll take the example of a spam classifier.
+{{./pasted_image.png?width=550}}
+* The spam emails have spelling errors.
+* We are using supervised learning, logistic regression.
+* How to select features - we may select 100 words and tag them as being spam email words or not. Then we may train a classifier for the emails - like deal, buy now, !!!, etc. This can be done semi-automatically by seeing the word frequency.
+* For each email, our feature is a 1/0 vector, if there is a feature word we have, it is 1 else 0.
+* How can we make our classifier?
+	a. Collect more data
+	b. Develop sophisticated features based on email routing information(from email header)
+	c. Punctuations, capital words etc.
+	d. Detect spelling errors.
+* Don't get fixated on a certain accuracy betterment idea, just because it came to your head. We can use **error-analysis** which helps us in making more systematic decisions.

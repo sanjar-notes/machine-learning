@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-07-31T15:17:47+05:30
+
+====== 5. Choosing the number of clusters ======
+Created Friday 31 July 2020
+
+* There no automatic way to do so.
+* K is to chosen by hand, based on data plots.
+{{./pasted_image.png?width=400}}{{./pasted_image001.png?width=400}}
+* This is ambiguous, and is a part of unsupervised learning.
+--------------------
+**The Elbow Method**
+Select K based on the cost function.
+	{{./pasted_image002.png?width=400}}
+* But, we mostly get ambiguous curves.
+	{{./pasted_image003.png?width=400}}
+--------------------
+When using kmeans for later/downstream purpose. Evaluate k-means based on a metric for how well it'll perform for a later purpose - happiness, image compression.
+{{./pasted_image004.png?width=800}}

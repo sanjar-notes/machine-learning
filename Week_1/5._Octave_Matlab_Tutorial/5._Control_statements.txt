@@ -1,0 +1,73 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-06-05T06:38:38+05:30
+
+====== 5. Control statements ======
+Created Friday 05 June 2020
+
+* , is the equivalent of : in Python3.
+--------------------
+If statement:
+{{{code: lang="octave" linenumbers="True"
+ if 1==1,
+ 	'Not equal';
+ endif; # or simply end
+}}}
+
+If else statement:
+{{{code: lang="octave" linenumbers="True"
+if 1~=1:
+	disp('Not equal');
+elseif 1~=1,
+	disp('Equal')
+else,
+	disp('What????');
+endif;
+}}}
+
+--------------------
+For loop, using a range.
+{{{code: lang="octave" linenumbers="True"
+v = 1:10 # works for both vectors
+for i=1:10, # note the comma
+	v(i) = 2^i;
+endfor; # whitespace doesn't matter
+}}}
+
+For loop using a pre-existing vector:
+{{{code: lang="octave" linenumbers="True"
+y = 1:10
+for i=y,
+	disp(i);
+endfor; # same as end
+}}}
+
+while loop
+{{{code: lang="octave" linenumbers="True"
+v = zeros(1, 10)
+while i<=5,
+	v(i)=100;
+	i = i+1;
+endwhile;
+}}}
+
+* break,  just write break;
+* continue, just write continue;
+--------------------
+Functions:
+* Functions are handled using files. add a location to Octave's path using addpath('location_name');
+* Functions are directly accessible, we don't need to load them.
+* Inside a .m file we can define functions.
+{{{code: lang="markdown" linenumbers="True"
+function ret_value = squareThisNumber(input_1, input_2)
+# code, set ret_value to somethibg
+y = x^2;  #last statement's lvalue should be the return value.
+endfunction
+}}}
+
+* Octave functions can return multiple values
+{{{code: lang="markdown" linenumbers="True"
+function [sq, cu]: square_and_cube(x)
+sq = x^2
+cu = sq^x # save some time
+}}}

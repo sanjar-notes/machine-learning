@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-06-21T11:14:41+05:30
+
+====== 2. Bias vs Variance ======
+Created Sunday 21 June 2020
+
+Bias and variance are similar, but used to signify different causes.

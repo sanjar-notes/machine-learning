@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-06-08T15:15:45+05:30
+
+====== 3. Decision Boundary ======
+Created Monday 08 June 2020
+
+* We want to understand better when the hypothesis makes prediction 1, or 0.
+* If its a binary classifier, we choose h(x) ≥ 0.5 for **y=1**. Else **y=0**. The inclusive term doesn't matter much.
+{{./pasted_image002.png}} {{./pasted_image003.png?width=600}}
+--------------------
+Suppose we have this.
+{{./pasted_image006.png?width=600}}
+Via a procedure(?), we end up with θ = [-3; 1;1]. This is the correct hypothesis. How does it represent?
+We know that probability=1 if h(x) ≥	0.5 ⇒ z ≥ 0 ⇒ θ^{T}X ≥ 0
+This is just -3 + x_{1 }+ x_{2} ≥ 0 ⇒ x_{1 }+ x_{2} ≥ 3; **This line is called the decision line.**
+**Probability = 0.5 along this line.**
+{{./pasted_image005.png?width=200}}
+--------------------
+**Definition:** The **decision boundary** is the line that **separates** the area where y = 0 and where y = 1. It is created by our hypothesis function.
+
+* The hypothesis correctly classifies the data.
+* The decision boundary is a property of the hypothesis, and **not of the data-set**.
+* After we have correctly made the hypothesis, we don't need to worry about new data points.
+--------------------
+**Non-linear decision boundaries**
+Decision boundaries can be non-linear, i.e they can make** shapes**.
+{{./pasted_image008.png?width=600}}
+* We again see that the decision boundaries depends on the hypothesis chosen.
+--------------------
+**There are even more** **complex decision boundaries**
+We can have ellipses, or any other complex and funny shapes, for complex hypotheses.
+{{./pasted_image009.png?width=550}}
+{{./pasted_image010.png}}{{./pasted_image011.png}}{{./pasted_image012.png}}
+--------------------
+This helps justify that logistic regression is indeed an able classifier representation.

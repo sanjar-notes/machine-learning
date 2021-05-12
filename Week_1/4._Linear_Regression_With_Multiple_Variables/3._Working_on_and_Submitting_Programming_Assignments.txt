@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-06-04T13:15:08+05:30
+
+====== 3. Working on and Submitting Programming Assignments ======
+Created Thursday 04 June 2020
+
+Just write submit in octave.

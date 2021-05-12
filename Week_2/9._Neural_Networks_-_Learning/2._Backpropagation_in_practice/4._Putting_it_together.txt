@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-06-20T13:40:25+05:30
+
+====== 4. Putting it together ======
+Created Saturday 20 June 2020
+
+The overall process of implementing an ANN.
+1. Pick a network architecture - layers and number of units in each layer.
+	a. Number of input units = same as the number of values in a data example
+	b. Number of output units = number of classes. For binary classification, one output unit is enough.(>0.5 for Yes, else No)
+	c. Number of hidden layer: One layer is a good default. Using more layers makes our predictions better, but computation time increases.
+	d. Number of units in a layer: It is good to have the same number of units in each layer, and comparable to the input layer.
+	{{./pasted_image.png?width=600}} 
+2. Training a neural network - the code.
+	a. Randomly initialize the weights.
+	b. Implement forward propagation to get h_{Θ}(x^{(i)}) for any x^{(i)}
+	c. Implement code to compute J(Θ)
+	d. Implement backprop to compute partial derivatives.	
+{{./pasted_image002.png}}
+	e. Apply gradient checking for the derivatives.
+	f. Use gradient descent or advanced optimization method to minimize J(Θ)
+Note: Theoretically, even the advanced optimization algorithms may be stuck in a local minima, but this is rarely the case.
+--------------------
+This is how it fits together.
+1. Random initialization decreases systematic redundancy.
+2. Backprop calculates the direction, derivatives.
+3. The advanced optimization algorithm decides the learning rate and finds the optima as quickly as possible.
+4. It can feel like a black-box, but it's okay.
+{{./pasted_image003.png}}

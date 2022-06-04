@@ -13,4 +13,4 @@ This reason may not seem to be the core of machine learning, which
 is to program machines without explicitly doing so. I wish to do 
 that as well.
 
-So these two are my reasons.
+These are the two reasons why I wish to learn machine learning.

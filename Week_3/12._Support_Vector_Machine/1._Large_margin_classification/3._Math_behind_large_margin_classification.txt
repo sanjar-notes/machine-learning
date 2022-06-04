@@ -1,9 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2020-07-25T12:44:50+05:30
-
-====== 3. Math behind large margin classification ======
-Created Saturday 25 July 2020
-
-Done, revisit.
-Using scalar product we proved that SVM has a better decision boundary.

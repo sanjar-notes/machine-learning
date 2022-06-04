@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2020-06-02T00:12:03+05:30
-
-====== 1. Model and Cost function ======
-Created Tuesday 02 June 2020
-

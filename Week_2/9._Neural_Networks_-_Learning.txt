@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2020-06-14T16:06:29+05:30
-
-====== 9. Neural Networks - Learning ======
-Created Sunday 14 June 2020
-

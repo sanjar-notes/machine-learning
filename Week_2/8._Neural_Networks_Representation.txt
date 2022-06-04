@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2020-06-12T13:25:19+05:30
-
-====== 8. Neural Networks Representation ======
-Created Friday 12 June 2020
-

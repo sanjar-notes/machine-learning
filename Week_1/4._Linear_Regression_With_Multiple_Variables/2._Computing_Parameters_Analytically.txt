@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2020-06-04T04:06:07+05:30
-
-====== 2. Computing Parameters Analytically ======
-Created Thursday 04 June 2020
-

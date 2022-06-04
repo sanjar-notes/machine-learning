@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2020-06-19T13:31:33+05:30
-
-====== 11. Machine Learning - System Design ======
-Created Friday 19 June 2020
-
- 

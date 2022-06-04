@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2020-07-23T20:16:55+05:30
-
-====== 3. Using large data-sets ======
-Created Thursday 23 July 2020
-

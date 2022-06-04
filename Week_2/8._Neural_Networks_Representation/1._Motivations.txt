@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2020-06-12T13:25:56+05:30
-
-====== 1. Motivations ======
-Created Friday 12 June 2020

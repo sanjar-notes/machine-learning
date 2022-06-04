@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2020-06-02T02:00:06+05:30
-
-====== 2. Parameter Learning ======
-Created Tuesday 02 June 2020
